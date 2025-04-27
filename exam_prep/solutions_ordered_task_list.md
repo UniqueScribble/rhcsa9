@@ -36,7 +36,7 @@ nmcli con show
 nmcli con mod enp0s8 ipv4.method manual ipv4.addresses "192.168.55.71/24" ipv4.gateway "192.168.55.1" ipv4.dns "8.8.8.8" ipv6.method manual ipv6.addresses "2002:fe60:def0::55/64"
 nmcli con down enp0s8
 nmcli con up enp0s8
-nmcli general hostname rhcsa9-server1
+nmcli general hostname rhcsa9-server2
 
 ### Check to make sure everything is good
 nmcli con show enp0s8
